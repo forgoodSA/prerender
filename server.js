@@ -8,8 +8,7 @@ var server = prerender({
     resourceDownloadTimeout: 120000,
     waitAfterLastRequest: 5000,
     jsTimeout: 30000,
-    port: 80,
-    hostname: "fg-prerender.azurewebsites.net"
+    port: 4000
 });
 
 
