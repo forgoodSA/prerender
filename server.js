@@ -7,8 +7,7 @@ var server = prerender({
     pageDoneCheckTimeout: 300,
     resourceDownloadTimeout: 120000,
     waitAfterLastRequest: 5000,
-    jsTimeout: 30000,
-    port: 4000
+    jsTimeout: 30000
 });
 
 
